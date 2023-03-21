@@ -19,8 +19,7 @@ if __name__ == "__main__":
 
         if opt == 1:
             pw = input("Please enter your password to encode: ")
-            print(f"The encoded password is {encode(pw)}, and the original password is {pw}.")
-            break
+            print(f"Your password has been encoded and stored!")
         elif opt == 2:
            pass
         elif opt == 3:
